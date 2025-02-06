@@ -96,7 +96,7 @@ button {
   box-shadow: 3px 3px 2px 0px #4a2c2a;
   text-align: center;
   display: none;
-  transition: display 2s;
+  transition: display 3s;
 }
 
 .links-container li {
