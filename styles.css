@@ -42,7 +42,7 @@ h1 {
  body {
   box-sizing: border-box;
   margin: 0;
-  background-image: url('./coffee-beans.jpg');
+  background-image: url('./recipes/imgs/coffee-beans.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
