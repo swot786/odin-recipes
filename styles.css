@@ -38,3 +38,77 @@ h1 {
     background-color: rgb(76, 78, 78);
 }
  */
+ 
+ body {
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url('./coffee-beans.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heading {
+  background-color: #4a2c2a;
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+.heading h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+button {
+  opacity: 0.8;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.25rem;
+  font-weight: 650;
+  background-color: #7c4a46;
+  color: whitesmoke;
+}
+
+.recipe-links-container {
+  /* position: relative; */
+  width: 60%;
+  margin: 50% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 30px;
+  z-index: 1;
+  box-shadow: 3px 3px 2px 0px #4a2c2a;
+  text-align: center;
+  display: none;
+}
+
+.links-container li {
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+.recipe-links-container:hover .links-container {
+  display: block;
+  border-radius: 0 0 10px 10px;
+  line-height: 60px;
+}
+
+.links-container li:hover {
+  background-color: #c29794;
+}
