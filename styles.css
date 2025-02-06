@@ -95,8 +95,9 @@ button {
   z-index: 1;
   box-shadow: 3px 3px 2px 0px #4a2c2a;
   text-align: center;
+  opacity: 0;
   display: none;
-  transition: display 5s;
+  transition: display 1s opacity 0.5s;
 }
 
 .links-container li {
@@ -110,6 +111,7 @@ button {
 }
 
 .recipe-links-container:hover .links-container {
+  opacity: 1;
   display: block;
   border-radius: 0 0 10px 10px;
   line-height: 60px;
