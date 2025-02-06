@@ -96,6 +96,7 @@ button {
   box-shadow: 3px 3px 2px 0px #4a2c2a;
   text-align: center;
   display: none;
+  transition: display 2s;
 }
 
 .links-container li {
@@ -109,7 +110,6 @@ button {
 
 .recipe-links-container:hover .links-container {
   display: block;
-  transition: display 1s;
   border-radius: 0 0 10px 10px;
   line-height: 60px;
 }
