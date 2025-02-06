@@ -8,7 +8,7 @@ h1 {
 }
 
 .container {
-    background-color: rgb(149, 149, 150);
+    background-color: grey;
     display: flex;
     flex-direction: column;
     align-items: center;
