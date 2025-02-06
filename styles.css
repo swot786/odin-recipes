@@ -103,6 +103,10 @@ button {
   font-weight: 650;
 }
 
+li a {
+  text-decoration: none;
+}
+
 .recipe-links-container:hover .links-container {
   display: block;
   border-radius: 0 0 10px 10px;
