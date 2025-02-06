@@ -82,7 +82,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 1s display;
 }
 
 .links-container {
@@ -97,6 +96,7 @@ button {
   box-shadow: 3px 3px 2px 0px #4a2c2a;
   text-align: center;
   display: none;
+  transition: display 1s;
 }
 
 .links-container li {
