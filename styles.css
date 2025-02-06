@@ -42,6 +42,7 @@ h1 {
  body {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   background-image: url('./recipes/imgs/coffee-beans.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,7 +50,6 @@ h1 {
 }
 
 .heading {
-  margin: 0;
   background-color: #4a2c2a;
   color: whitesmoke;
   opacity: 0.8;
