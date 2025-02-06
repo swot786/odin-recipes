@@ -48,7 +48,7 @@ button {
 
 .links-container {
   transform: rotateX(80deg);
-  animation: one 2s infinite;
+  animation: one 2s;
   animation-direction: alternate;
   
   width: 100%;
