@@ -47,6 +47,10 @@ button {
 }
 
 .links-container {
+  transform: rotateX(40deg);
+  animation: one 2s infinite;
+  animation-direction: alternate;
+  
   width: 100%;
   list-style-type: none;
   padding: 0;
