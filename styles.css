@@ -77,7 +77,7 @@ button {
 .recipe-links-container {
   /* position: relative; */
   width: 60%;
-  margin: 50% auto;
+  margin: 200px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
