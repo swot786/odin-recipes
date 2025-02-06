@@ -82,7 +82,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 1s dis;
+  transition: 1s display;
 }
 
 .links-container {
