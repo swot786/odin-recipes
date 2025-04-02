@@ -47,9 +47,9 @@ button {
 }
 
 .links-container {
-  transform: rotateX(80deg);
+/*   transform: rotateX(80deg);
   animation: one 2s;
-  animation-direction: alternate;
+  animation-direction: alternate; */
   
   width: 100%;
   list-style-type: none;
@@ -87,11 +87,11 @@ button {
   background-color: #c29794;
 }
 
-@keyframes one {
+/* @keyframes one {
   0% {
     transform: rotateX(0);
   }
   100% {
     transform: rotateX(50deg);
   }
-}
+} */
